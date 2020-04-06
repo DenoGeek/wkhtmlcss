@@ -1,0 +1,3 @@
+dist/*
+!dist/wkhtmlcss.css
+!dist/wkhtmlcss.min.css
