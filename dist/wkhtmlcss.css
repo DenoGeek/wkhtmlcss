@@ -3,5 +3,14 @@ table {
 }
 
 h1 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20em;
+  color: black;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
 }
