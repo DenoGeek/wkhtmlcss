@@ -1,1 +1,1 @@
-table{width:100%}h1{text-transform:uppercase;font-family:Arial,Helvetica,sans-serif;font-size:20em;color:black}h2{font-family:Arial,Helvetica,sans-serif;font-size:20px;color:black}
+table{width:100%;margin:auto}tr:nth-child(even){background-color:#CCC}tr:nth-child(odd){background-color:#FFF}tr{border:2px solid #ddd}td,th{padding:5px;text-align:center}h1{text-transform:uppercase;font-family:Arial,Helvetica,sans-serif;font-size:20px;color:#000;text-align:center}h2{font-family:Arial,Helvetica,sans-serif;font-size:18px;color:#000;text-align:center}
