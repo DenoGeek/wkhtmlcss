@@ -1,17 +1,86 @@
 $font-family:Arial, Helvetica, sans-serif;
-$color:black;
+$color-black:black;
+$color-white:white;
 
-h1{
-    text-transform: uppercase;
+/*
+    ----------------
+        Font-Sizes
+    ----------------
+*/
+
+.h1{
+    font-family: $font-family;
+    font-size: 40px;
+}
+.h2{
+    font-family: $font-family;
+    font-size: 30px;
+}
+.h3{
     font-family: $font-family;
     font-size: 20px;
-    color: $color;
-    text-align: center;
 }
 
-h2{
-    font-family: $font-family;
-    font-size: 18px;
-    color: $color;
+/*
+    ------------------
+        Alignment
+    ------------------
+*/
+
+.left{
+    text-align:left;
+}
+.center{
     text-align: center;
+}
+.right{
+    text-align: right;
+}
+
+
+/*
+    -------------------
+        Font Styles
+    -------------------
+*/
+.italic{
+font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+.lighter{
+    font-weight: lighter;
+}
+.bolder{
+    font-weight: bolder;
+}
+.normal{
+    font-weight: normal;
+}
+.line-height-normal{
+    line-height: normal;
+}
+.line-height-recommended{
+    line-height: 1.6;
+}
+.circular-list{
+    list-style-type: circle;
+}
+.square-list{
+    list-style-type: square;
+}
+.upper-roman{
+    list-style-type: upper-roman;
+}
+.lower-roman{
+    list-style-type: lower-roman;
+}
+.upper-alpha{
+    list-style-type: upper-alpha;
+}
+
+.lower-alpha{
+    list-style-type: lower-alpha;
 }
