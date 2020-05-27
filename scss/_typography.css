@@ -1,0 +1,93 @@
+/*
+    ----------------
+        Font-Sizes
+    ----------------
+*/
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/*
+    ------------------
+        Alignment
+    ------------------
+*/
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/*
+    -------------------
+        Font Styles
+    -------------------
+*/
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.line-height-normal {
+  line-height: normal;
+}
+
+.line-height-recommended {
+  line-height: 1.6;
+}
+
+.circular-list {
+  list-style-type: circle;
+}
+
+.square-list {
+  list-style-type: square;
+}
+
+.upper-roman {
+  list-style-type: upper-roman;
+}
+
+.lower-roman {
+  list-style-type: lower-roman;
+}
+
+.upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.lower-alpha {
+  list-style-type: lower-alpha;
+}
