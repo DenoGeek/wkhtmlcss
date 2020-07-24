@@ -7,3 +7,6 @@ wkhtmltopdf-amd64
 
 #ignore python virtual environments
 venv
+
+#ignore intelij folder
+.idea
