@@ -1,0 +1,80 @@
+/*
+Define columns for text
+*/
+.text-cols-3 {
+    /* You *must* define a fixed height which is
+       large enough to fit the whole content,
+       otherwise the layout is unpredictable. */
+    height: 28em;
+    /* Width and count aren't respected, but you
+       have to give at least some dummy value (??). */
+    -webkit-columns: 0 0;
+    /* This is the strange way to define the number of columns:
+       50% = 2 columns, 33% = 3 columns 25% = 4 columns */
+    width: 33%; 
+    /* Gap and rule do work. */
+    -webkit-column-gap: 2em;
+    -webkit-column-rule: 1px solid black;
+    text-align: justify;
+}
+
+.text-cols-2 {
+    /* You *must* define a fixed height which is
+       large enough to fit the whole content,
+       otherwise the layout is unpredictable. */
+    height: 28em;
+    /* Width and count aren't respected, but you
+       have to give at least some dummy value (??). */
+    -webkit-columns: 0 0;
+    /* This is the strange way to define the number of columns:
+       50% = 2 columns, 33% = 3 columns 25% = 4 columns */
+    width: 50%; 
+    /* Gap and rule do work. */
+    -webkit-column-gap: 2em;
+    -webkit-column-rule: 1px solid black;
+    text-align: justify;
+}
+
+
+
+/*
+Definition of division columns
+*/
+.column-holder{
+    width: 99%;
+    float: left;
+}
+.col-6{
+    width: calc(98% / 2);
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.col-4{
+    width: calc(98% / 3);
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+
+/*
+Specify different paddings and margins
+*/
+
+.mt-5{
+    margin-top: 5em;
+}
+
+.mt-3{
+    margin-top: 3em;
+}
+
+.mb-5{
+    margin-bottom: 5em;
+}
+
+.mb-3{
+    margin-bottom: 3em;
+}

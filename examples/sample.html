@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        td, th{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        #table3{
+            page-break-after: always;
+        }
+        #table4{
+            page-break-inside: avoid;
+        }
+        .break-then-images{
+            page-break-after: always;
+        }
+
+        .flex-container{
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            background-color: #73879C;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-radius:5px;
+            box-shadow:5px 2px;
+            margin: 20px 0;
+        }
+        .flex-container > div{
+            color: white;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <table width="100%">
+    <tr style="margin-bottom: 50px">
+        <th style="text-align: center !important; width: 100%"> <b> VALUATION REPORT </b> </th>
+    </tr>
+    <tr style="margin-bottom: 50px">
+        <th style="text-align: center !important; width:100%">
+            A brief examination and road test has been carried out on the vehicle described below. The findings are as follows
+        </th>
+    </tr>
+
+</table>
+
+<div class="flex-container">
+    <div>
+        <h3 style="font-weight: bold;text-decoration: underline">CLIENT INFORMATION</h3>
+        <span style="font-weight:bold; font-size: medium">NAME:</span>  Martin Kamau <br>
+        <span style="font-weight:bold; font-size: medium">ADDRESS:</span> 23-534
+
+    </div>
+
+    <div>
+        <h3 style="font-weight: bold;text-decoration: underline">PARTNER INFORMATION</h3>
+
+        <span style="font-weight:bold;font-size: medium">INSURER:</span>  Sanlam General Insurance Limited <br>
+
+                <span style="font-weight:bold;font-size: medium">POLICY NO:</span> dfs <br>
+                  <span style="font-weight:bold;font-size: medium">EXPIRY DATE:</span> 2020-06-18
+
+    </div>
+
+    <div>
+        <h3 style="font-weight: bold;text-decoration: underline">CONTACT INFORMATION</h3>
+        <span style="font-weight:bold;font-size: medium">EMAIL:</span> client@email.com <br>
+        <span style="font-weight:bold;font-size: medium">TELEPHONE:</span> 4r2345
+
+
+    </div>
+</div>
+
+<table  width="100%" id="table2">
+                <tr>
+                    <th colspan="4">
+                        The table below displays findings after an extensive examinatoin and road test of the vehicle.
+                    </th>
+                </tr>
+                <tr>
+                    <th  >Date of Booking</th>
+                    <td >2020-06-18</td>
+                    <th  >Insurance Certificate No</th>
+                    <td >vsg</td>
+                </tr>
+                <tr>
+                    <th  >Vehicle Make and Model</th>
+                    <td >
+                        Toyota
+                        NZE
+                    </td>
+                    <th  >Registration Number</th>
+                    <td >KCU 407V</td>
+                </tr>
+                <tr>
+                    <th  >Body Type</th>
+                    <td >Pick up</td>
+                    <th  >Colour</th>
+                    <td >Beige</td>
+                </tr>
+                <tr>
+                    <th  >Transmission</th>
+                    <td >Manual</td>
+                    <th  >Fuel Type</th>
+                    <td >Diesel</td>
+                </tr>
+                <tr>
+                    <th  >Chasis Number</th>
+                    <td >jn ln</td>
+                    <th  >Odometer Reading</th>
+                    <td >,n l</td>
+                </tr>
+                <tr>
+                    <th  >Engine Capacity</th>
+                    <td >bklj</td>
+                    <th  >Engine Number</th>
+                    <td >kj;k</td>
+                </tr>
+                <tr>
+                    <th  >YOM</th>
+                    <td >2012</td>
+                    <th  >F.D.O.Reg</th>
+                    <td ></td>
+                </tr>
+                <tr>
+                    <th  >Anti theft device</th>
+                    <td >,.k ;kn</td>
+                    <th  >Body Work</th>
+                    <td >kljn;</td>
+                </tr>
+                <tr>
+                    <th  >Mechanical</th>
+                    <td >b;klj</td>
+                    <th  >Electrical</th>
+                    <td >,kn kl</td>
+                </tr>
+                <tr>
+                    <th  >Tyres</th>
+                    <td >n ;k</td>
+                    <th  >Extras</th>
+                    <td >kn ;k</td>
+                </tr>
+                <tr>
+                    <th  >Remarks</th>
+                    <td >,n;klkn</td>
+                    <th  >General Condition</th>
+                    <td >lkjb;k</td>
+                </tr>
+                <tr>
+
+                    <th  >Intermediary</th>
+                    
+                    <td ></td>
+                    <th  >Country of Origin</th>
+                    <td >Kenya</td>
+                </tr>
+
+</table>
+
+<div style="margin-top: 20px" class="break-then-images">
+                <p> <span style="font-weight: bold">Current Market Value:</span>  blkj </p>
+                <p> <span style="font-weight: bold">Entertainment Unit:</span> lnk </p>
+                <p> <span style="font-weight: bold">Windscreen:</span> j nlkn </p>
+</div>
+
+
+<table width="100%" id="table3">
+
+    <tr>
+        <td width="33%">
+            <h3> Dashboard Picture</h3>
+                            <img src="http://val.local/spaces_asset/valuation-images/dashboards/TTOB0VVSyyLCtNuWG5RuF9W9llpw1dUYvfwvy5V1.png" alt="Dashboard" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Chasis Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Back Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+    </tr>
+
+    <tr>
+        <td width="33%">
+            <h3> Right Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Left Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Front Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+    </tr>
+
+    <tr>
+        <td width="33%">
+            <h3> Engine Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Mileage Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Headlamp Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+    </tr>
+
+    <tr>
+        <td width="33%">
+            <h3> Radio Picture</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Insurance Sticker</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+
+        <td width="33%">
+            <h3> Appointment Letter</h3>
+                            <img src="http://val.local/images/caravatar.png" alt="Left" class="rectangular-Images" style="width:100%;height:auto">
+                    </td>
+    </tr>
+
+</table></body>
+</html>

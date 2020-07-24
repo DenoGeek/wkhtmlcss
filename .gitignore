@@ -2,3 +2,8 @@ dist/*
 !dist/wkhtmlcss.css
 !dist/wkhtmlcss.min.css
 wkhtmltopdf-amd64
+
+
+
+#ignore python virtual environments
+venv
