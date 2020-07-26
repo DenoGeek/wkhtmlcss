@@ -34,3 +34,11 @@
     tr:nth-child(even){background-color: #d3d3d3;}
     tr:nth-child(odd){background-color: #FFF;}
 }
+
+.table-auto{
+    table-layout: auto;
+
+}
+.table-fixed{
+    table-layout: fixed;
+}
