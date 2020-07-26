@@ -6,16 +6,17 @@ h1{
     font-family: $font-family;
     font-size: 20px;
     color: $color;
-    text-align: center;
 }
 
 h2{
     font-family: $font-family;
     font-size: 18px;
     color: $color;
-    text-align: center;
 }
 
+.text-center{
+    text-align: center;
+}
 
 .text-danger{
     color: #dc3545;
